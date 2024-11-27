@@ -32,3 +32,12 @@ void loop()
     PORTD = NS_YELLOW | EW_RED | EW_YELLOW;
     }
 }
+
+void main()
+{
+  setup();
+  while(1)
+  {
+    loop();
+  }
+}
